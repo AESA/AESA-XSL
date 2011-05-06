@@ -1,0 +1,453 @@
+
+/*********Estilos para la nueva maquetacion de los contenidos*************/
+.capaGenericaContenido { display:block;	clear:both;	height:100% !important;	/*width:100%;*/	 margin:0em 0em 0.5em 0em; }/*28/07/2008 se quita el overflow auto para que se visualicen bien los listados grandes de contrataciones. Posible desmaquetacion en c.v*/
+/*.capaGenericaContenido br { display:block !important;	position:relative !important; margin:5em 0em 0em 0em !important; padding:1em 0em 0em 0em !important;	
+	height:100% !important;	clear:left !important; line-height:2em !important; }*/
+.capaGenericaContenido table { margin-bottom:1em !important; font-size:0.65em; width:96%; }
+.capaGenericaContenido caption { color:#868686;	font-weight:bold;}
+/*.capaGenericaContenido table > caption { font-size:0.65em; }                       solución caption pequeños */
+.capaGenericaContenido a { text-decoration:underline; color:inherit; }
+.capaGenericaContenido h2 {
+	display: block;	
+	background-image: url(../gif/puntonaranja2.gif);
+	background-repeat: no-repeat;
+	background-position: 0em 0.5em;	
+	margin:0em 0em 1em 0em;
+	padding: 0em 0em 0em 0.7em;	
+	font-size:0.7em;	
+	font-weight: normal;
+	color: #6E8BB6;
+	text-align: justify;
+	z-index:1; }
+.capaGenericaContenido h2 a {color: #6E8BB6;}
+.capaGenericaContenido p  	{ display:block; margin:0em 0em 1em 0em; font-size:0.65em;	color: #868686;	text-decoration: none;	text-align: justify; padding: 0;	 }
+.capaGenericaContenido p a	{ color:#868686;}
+.capaGenericaContenido ul {	margin:0em 0em 1em 3em;	font-size:0.65em; color: #868686; display:block; list-style-type:none;}
+.capaGenericaContenido ol {	margin:0em 0em 1em 3.75em; padding:0; font-size:0.65em; list-style-type:decimal;list-style-position:outside; color: #868686;	}
+.capaGenericaContenido ul li {	display:block;	height:100%; padding-left:0.8em; background-image:url(../gif/puntoazul.gif); background-repeat:no-repeat;	background-position:0em 0.5em; list-style-image:none !important;list-style-type:none !important;margin-bottom:0.7em; display:block;}
+.capaGenericaContenido ol li { background-image:none;display:list-item; vertical-align:top; padding-left:0em;	list-style-type:decimal; margin-bottom:0.7em;}
+.capaGenericaContenido li ul,.capaGenericaContenido li ol {display:block;	margin-top:0.7em;	margin-bottom:0em !important;	font-size:1em !important;	}
+.capaGenericaContenido dl {	margin:0em 0em 1em 3em;	font-size:0.65em; list-style-image:url(../gif/puntoazul.gif); list-style-position:outside; color: #868686; }
+.capaGenericaContenido dl dd { font-size:inherit; }
+.capaGenericaContenido dd a { color:#868686; }
+.capaGenericaContenido li a { color:#868686; }
+/*.capaGenericaContenido li ol { font-size:1em !important; }*/
+/*.capaGenericaContenido, ol.listasAbc li{ list-style-type: upper-alpha !important; }
+.capaGenericaContenido, ol.listasNum  li{ list-style-type: decimal !important; }*/
+.capaGenericaContenido span { padding:0em 0.5em 0em 0em; z-index:10;}
+/*Estilos para corregir incorrecciones encontradas en distintas paginas*/
+.capaGenericaContenido td p,.capaGenericaContenido th p { font-size:1em; margin: 0 !important; padding: 0 !important; height:100%; }
+.capaGenericaContenido li p { font-size:1em; }
+.capaGenericaContenido td ul{ font-size:1em !important; }
+/*para corregir el tamaño de fuente cuando hay una tabla dentro de otra*/
+table table{ font-size:1em !important; }
+.capaGenericaContenido dl p { font-size:1em; }
+.capaGenericaContenido p table { font-size:1em !important; }
+/*para establecer el color de las tablas que no tienen formato*/
+.capaGenericaContenido td,.capaGenericaContenido th { color:#868686; padding-left:0.5em !important;	padding-right:0.5em !important;	text-align:left; }
+.capaGenericaContenido td a, .capaGenericaContenido th a {	color:#868686;}
+/*para corregir algunas paginas con un ul dentro de otro*/
+.capaGenericaContenido ul ul {	font-size:1em !important; }
+/*Este estilo se quitara cuando M M corrija las paginas en las que lo utiliza*/
+.MsoNormal { margin:0em 0em 0em 1.55em !important;	padding: 0;	text-indent: 0; }
+/*FIN Estilos para correccion*/
+
+.capaGenericaContenido strong.destacado1{font-weight:bold; font-style:oblique; display:block; font-size:1.1em; color:#666; border-top:0.09em #ccc dotted; border-bottom:0.09em #ccc dotted; padding:0.4em 0; margin:0 0 1em;}
+html{ font-size:100%; }
+
+/*listas anidadas*/
+.capaGenericaContenido ol.listaletras li.ABC{list-style-type: upper-alpha! important;}
+.capaGenericaContenido ol.listaletras li.abc{list-style-type: lower-alpha! important;}
+
+.capaGenericaContenido ol.listanumeros li.decimales{list-style-type: decimal! important;}
+.capaGenericaContenido ol.listanumeros li.romanomay{list-style-type: upper-roman! important;}
+.capaGenericaContenido ol.listanumeros li.romanomin{list-style-type: lower-roman! important;}
+
+.capaGenericaContenido ol li ul.listavinetas{ margin:1em 0 1em 2em;}
+.capaGenericaContenido ul.listavinetas li.disco {display:block;	height:100%; padding-left:0.8em; background-image:url(../gif/puntoazul.gif); background-repeat:no-repeat;	background-position:0em 0.5em; list-style-image:none !important; list-style-type:none !important; margin-bottom:0.7em;}
+
+/*ampliacion de imagenes en la home*/
+.nhLibre img{ width:18.04em; /*height:16.16em;*/}
+.nhCentro2 img{ width:46.44em; height:7.60em;}
+
+/**/
+.capaGenericaContenido h3,.capaGenericaContenido h4,.capaGenericaContenido h5 {
+	display: block;	
+	margin:0em 0em 1em 0em;
+	background-image: url(../gif/puntonaranja2.gif);
+	background-repeat: no-repeat;
+	background-position: 0em 0.5em;	
+	padding: 0em 0em 0em 0.7em;	
+	font-size:0.65em;	
+	color: #868686;	
+	text-decoration: none;	
+	text-align: justify; 
+	z-index:1; }
+.capaGenericaContenido h3 a,.capaGenericaContenido h4 a,.capaGenericaContenido h5 a {color: #868686;}
+
+/*para anotaciones y listas de definicion*/
+.anotacion1 {color:#5D8ECC; font-size:0.90em; vertical-align: middle;}
+dl.anotacion1Info{margin:0.50em 0;}
+dl.anotacion1Info dt{ float:left; padding-right:0.50em; color:#5D8ECC; margin:0;}
+dl.anotacion1Info dd{ margin:0.63em 0; text-align:justify;}
+dl.anotacion1Info a{text-decoration:none; color:#5D8ECC;}
+
+/**/
+.nosalto{
+	 white-space:nowrap;
+}
+
+.capaGenericaContenido li table{
+ font-size:1em;
+}
+
+/*********************************************************************/
+/*Estilos para poner un formulario con  fieldsets, labels, input, etc*/
+/*********************************************************************/
+
+.fondoFormulario {	
+	margin: 1em 0em 1em 0em;
+	padding: 0.5em 1em 1em 1em;
+	background-color:#f6f6f6;
+	text-align: justify;
+	font-size: 0.625em;
+	color:#868686;
+}
+.fondoFormulario fieldset {	display:block;	margin:0.5em 0em 0em 0em;
+	padding:0.5em 0.5em 0.5em 0.5em;	
+	border:solid 1px #5d8ecc;	
+}
+.fondoFormulario a {	color:#7e7e7e;}
+.fondoFormulario legend{		
+	margin: 0;
+	padding: 0;
+	font-weight: bold;	
+	color: #5d8ecc;	
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	}
+.fondoFormulario p {
+	display:block;
+	float:none;					
+	margin: 0;
+	padding:0.5em 0em 0em 0em;
+	clear:both;		
+}
+
+.fondoFormulario input{
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	font-weight: normal;
+	color: #7e7e7e;
+	text-decoration: none;
+	font-size:1em;
+	background-color:#ffffff;
+	border:0.1em solid #5D8ECC;
+	min-height:1.3em;
+}
+
+.fondoFormulario textarea{
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	font-weight: normal;
+	color: #7e7e7e;
+	text-decoration: none;
+	font-size:1em;
+	background-color:#ffffff;
+	border:0.1em solid #5D8ECC;
+}
+
+.fondoFormulario label{
+	font-weight: normal;	
+	color: #5d8ecc;	
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	text-decoration: none;
+	text-align:left;
+	font-size:1em;
+	height:100%;	
+}
+
+.fondoFormulario select{
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	font-weight: normal;
+	color: #7e7e7e;
+	text-decoration: none;
+	font-size:1em;	
+	background-color:#ffffff;
+}
+
+/*Estilos para los ul y ol dentro del formulario*/
+.fondoFormulario ul { margin:0em 0em 1em 1em; color: #868686; text-align:justify;	display:block;	list-style-type:none; }
+.fondoFormulario ol { margin:0em 0em 1em 2.7em;	padding: 0;	list-style-position:outside;	color: #868686;	list-style-type:decimal; }
+.fondoFormulario ul li {	
+	display:block;
+	height:100%;
+	padding-left:0.8em;
+	background-image:url(../gif/puntoazul.gif);
+	background-repeat:no-repeat;
+	background-position:0em 0.5em;
+	list-style-image:none;
+	list-style-type:none;
+	margin-bottom:0.7em;
+	display:block; }
+.fondoFormulario ol li {background-image:none; vertical-align:top;	padding-left:0em;	margin-bottom:0.7em; }
+p.comentarioEnFormulario{	
+	padding:0.5em 2em 0.5em 0;
+	margin: 0;
+	font-weight: normal;	
+	color: #868686;
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	text-decoration: none;
+	clear:both;	}
+
+.tituloSeccionFormulario{		
+	margin:1em 0em 1em 0em;
+	padding: 0;
+	font-weight: bold;	
+	color: #5d8ecc;	
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	text-decoration:none;
+	border-bottom:solid thin #5d8ecc;	
+	font-size:1em;
+	background-image:none; }
+.campoIncorrectoEnFormulario {	color: #FF0000; }
+/*****************************************************************************/
+/* fin de Estilos para poner un formulario con  fieldsets, labels, input, etc*/
+/*****************************************************************************/
+.fondoFormulario table { width:100% !important; }
+.fondoFormulario table > caption {	font-size:1em !important;}
+/*Estilo para aplicar a una capa que vaya a contener una tabla de resultados */
+div.contenedorTabla table,div.contenedorTablaCentro table,div.contenedorTablaDerecha table{	font-size:1em;	width:99%; }
+.contenedorTabla input,.contenedorTablaCentro input,.contenedorTablaDerecha input {	color:#7e7e7e; 	font-size:1em; }
+
+/********************Fin de los estilos para los contenedores de tablas*/
+/*Estilos para poner un paginador de tipo 1 a una tabla*/
+div.paginadorEnFormulario { float:none;	margin:0em 0em 1em 0em;	padding: 0;	text-align:center;	}
+div.paginador {	float:none;	margin:0em 0em 1em 0em;	padding: 0;	text-align:center; font-size:0.6em; }
+div.paginador a,div.paginadorEnFormulario a { color:#5d8ecc }
+div.paginador input { background-color:#ffffff; margin: 0;	padding: 0;	border:none; fONT-WEIGHT: normal; font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif; color:#5d8ecc; text-decoration: none;}
+div.paginador span { font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif; color:#5d8ecc; }
+.paginadorPaginaSeleccionada {	background-color:#E6E6E7; font-weight:bold; }
+/*Estilo para los botones*/
+.botonAplicacion { 
+	overflow:visible; 
+	padding:0em 0.1em 0em 0.1em; 
+	margin: 0; 
+	border:solid 1px #6E8BB6; 
+	background-color:#ffffff; 
+	FONT-WEIGHT: normal;  
+	color:#7e7e7e;
+	text-decoration: none; }
+.botonEnTabla {	
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	overflow:visible; 	
+	margin: 0; padding: 0; 
+	border-color:#6E8BB6;	
+	border-style:solid; 
+	border-width:1px; 
+	background-color:#ffffff; 
+	font-weight:normal; 
+	color:#7e7e7e; 
+	text-decoration: none; font-size:1em; }
+/*Estilo para una botonera donde los botones se alineen a la derecha*/
+.botoneraEnFormulario {	margin:1em 0 0 0; padding: 0; }
+.botoneraFuera {	margin: 0;	padding: 0;}
+.botoneraFuera input {	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	font-size:0.6em;}
+.enlaceComoBoton {
+	background-color:#ffffff;border:1px solid #6E8BB6;
+	color:#7E7E7E !important;
+	font-weight:normal;
+	font-size: 0.65em;
+	padding:0.13em 0.2em 0.13em 0.2em;
+	text-decoration:none !important;
+}
+.BotonAsHtmlLink {	
+	margin: 0;	padding: 0;	
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	text-decoration:none;
+	color:#5D8ECC !important;	
+	background-color:transparent !important;	
+	border:none;	
+	cursor:pointer;	
+	font-size:1em;	
+	text-decoration:underline !important; }
+label.errorValidacionMFOM { clear:both !important;	color: #FF3300;	display:block; }
+.mensajeInformativo {font-size:0.65em;}
+.mensajeInformativo, .mensajeInformativoEnFormulario{font-weight:bold; color:#5d8ecc; }
+/*Estilos para los mensajes de error*/
+.mensajeError,.mensajeErrorFuera { font-weight:bold; color:#ff0000;	}
+.mensajeError *, .mensajeErrorFuera *{ color:#ff0000 !important; }
+.mensajeErrorFuera { font-size:0.65em; }
+.detalleRegistro1 table { background-color:#f6f6f6;	font-size:1em; font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	}
+.detalleRegistro1 caption { color:#000000;	margin: 0;	padding: 0;	border: none;	font-weight:bold;	}
+.detalleRegistro1 th {	background: #6D6D6D;	color:#ffffff;}
+/*.detalleRegistro1 td {	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	}*/
+/*clase que sobreescribe a la clase del mismo nombre en estilosAA PAra que se visualice centrado el icono de descarga para visualizar documentos */
+/*.descargaPrograma img { position: relative;	left:0px !important; }*/
+/*Estilo para aplicar a una capa que vaya a contener una lista de elementos y utilización del overflow*/
+.capaoverflow { background: #ffffff; border:solid 1px #5d8ecc; overflow: auto !important; width: 100% !important; }
+/*Fin de los estilos para las capas que utilizan overflow*//*Estilos para el alto de los objetos*/
+.alto12 {height: 12em !important;}
+.alto14{ height:14em;}
+.alto16{ height:16em;}
+.alto18{ height:18em;}
+.alto20{ height:20em;}
+.alto22{ height:22em;}
+.alto24{ height:24em;}
+.alto26{ height:26em;}
+.alto28{ height:28em;}
+.alto30{ height:30em;}
+/*Fin de los estilos para el alto*//*Estilos para el ancho de los objetos*/
+.ancho34{	width: 34em; }
+/*Fin de los estilos para el ancho*/
+.BotonAsHtmlLink{	margin: 0;	padding: 0;	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;		text-decoration:none; 	color:#5D8ECC !important;	background-color:transparent;	border:none;	cursor:pointer;	font-size:1em;	text-decoration:underline; }
+/*Estilos para la cabecera de las paginas que se abren en ventana nueva*/
+.cabeceraVentanaEmergente {	width:48.78em; 	height:4em;	background-image: url(../jpg/logofomentonew.jpg);background-repeat:no-repeat;}
+.contenedorTextoCabeceraVentanaEmergente {	width:31.8em;	height:3.6em;	padding:0.2em 0.5em 0em 0em; border:1px solid #cccccc;	overflow:hidden;  float:right; text-align:right; }
+.contenedorTextoCabeceraVentanaEmergente span { font-size:0.65em;	color:#868686;	text-decoration:none;	display:block;	text-align:right; }
+/*18/06/2007 ponemos los estilos left en esta hoja de estilos y los quitamos de estilosAA*/
+.left500 {display:inline; float:left; width:50.0em; text-align:left; }
+.left475 {display:inline; float:left; width:47.5em; text-align:left; }
+.left450 {display:inline; float:left; width:45.0em; text-align:left; }
+.left425 {display:inline; float:left; width:42.5em; text-align:left; }
+.left400 {display:inline; float:left; width:40.0em; text-align:left; }
+.left375{ display:inline; float:left; width:37.5em; text-align:left; }
+.left350{ display:inline; float:left; width:35.0em; text-align:left; }
+.left325{ display:inline; float:left; width:32.5em; text-align:left; }
+.left300{ display:inline; float:left; width:30.0em; text-align:left; }
+.left275{ display:inline; float:left; width:27.5em; text-align:left; }
+.left250{ display:inline; float:left; width:25.0em; text-align:left; }
+.left225{ display:inline; float:left; width:22.5em; text-align:left; }
+.left200{ display:inline; float:left; width:20.0em; text-align:left; }
+.left175{ display:inline; float:left; width:17.5em; text-align:left; }
+.left150{ display:inline; float:left; width:15.0em; text-align:left; }
+.left125{ display:inline; float:left; width:12.5em; text-align:left; }
+.left100{ display:inline; float:left; width:10.0em; text-align:left; }
+.left75 { display:inline; float:left; width:7.5em; text-align:left; }
+.left50 { display:inline; float:left; width:5.0em; text-align:left; }
+.left20 { display:inline; width:20px; text-align: left; }
+.left40{  display:inline; width:40px; text-align:left; }
+.left80{  display:inline; width:80px; text-align:left; }
+.left {   display:inline; float:left; text-align:left; }
+/*Estilos para la capa de identificacion de usuario en el menu de la izquierda*/
+.datosIdentificativos { margin:0.4em 0em 0em 0em; padding:0.2em 0em 0.5em 0em; background-color:#e6e6e7;}
+.datosIdentificativos input { font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	font-size:0.65em !important; }
+.datosIdentificativos p { margin:1em 0.5em 0em 0.5em; padding:0.2em 0em 0.2em 0.6em; background-color:#9cb2d3; color:#ffffff; font-size:0.7em;
+	background-image:url(../gif/flesubentradilla.gif); background-repeat:no-repeat;	background-position:0.1em center; }
+.datosIdentificativos dl { color:#7e7e7e; margin:0.5em 0.5em 0.5em 1.1em; padding: 0; font-size:0.7em; }
+.datosIdentificativos dt { font-weight:bold;}
+.datosIdentificativos dd { margin: 0; padding:0em 0em 0em 0.5em; 	}
+/*Estilos para los datalist*//*dt { clear: both; }*/
+.table-display {    display:block; float:none; clear:both; }
+.table-display dt {	display:block; float:left; color: #5D8ECC; clear:left; margin: 0 0.3em 0.5em 0; padding: 0; }
+.table-display dd {	display:block; clear:right;	margin:0 0 0.5em 0;	padding: 0;  min-height:18px;}
+/*Estilos para dividir en capas iguales 49% y 49% la pantalla*/
+.Capa49Izquierda { float:left;	overflow:hidden; width:49%; }
+.Capa49Derecha { float:right;	overflow:hidden; width:49%; }
+/*Estilos para la identificacion de usuario. Solo para poner en el menu de la derecha*/
+/*Estilos para diferentes layouts en columnas*/
+.izquierda50 {display:block; float:left; width:49%; margin: 0; padding: 0;	height:100%; }
+.derecha50{	  display:block; float:left; width:49%;	margin: 0; padding: 0;	height:100%; }
+.izquierda33 {display:block; float:left; width:33%;	margin: 0; padding: 0;	height:100%; }
+.centro33 {   display:block; float:left; width:33%;	margin: 0; padding: 0;	height:100%; }
+.derecha33{   display:block; float:right;width:32%;	margin: 0; padding: 0; 	height:100%; }
+.izquierda25,.centro25,.derecha25 {  display:block; float:left; width:24%;	margin: 0; padding: 0;	height:100%; }
+.campo_formulario{ display:inline;width:100%;}
+.invisible{ display:none}
+.loginUsuarioIzquierda { height:100%; margin:0.5em 0em 0em 0em;	padding: 0;	}
+.loginUsuarioIzquierda h1,.identificacionUsuario h1 { font-size: 0.65em;
+	display:block;
+	background-image:none;
+	text-align:center;
+	background-color:#7192c5;	
+	margin: 0em 0em 0.2em 0em;	
+	padding: 0.2em 0em 0.2em 0em;
+	color: #ffffff;
+	vertical-align:bottom;	
+	text-align:center; }
+
+.loginUsuarioIzquierda_contenido { margin: 0; padding:0.3em 0em 0.8em 0em;	background-color:#f4f4f4; border:solid thin #dfdfdf;	}
+.loginUsuarioIzquierda_campos {	padding-left:0.2em;	padding-right:0.4em; margin-bottom:0.5em; }
+.loginUsuarioIzquierda_campos select{ margin: 0; padding: 0; border:solid 1px #6E8BB6; background-color:#ffffff; FONT-WEIGHT: normal; 	color:#7e7e7e;
+	text-decoration: none; 	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	font-size:0.6em;width:98%; }
+.loginUsuarioIzquierda_campos input { margin: 0;padding: 0;	border:solid 1px #6E8BB6;background-color:#ffffff;	FONT-WEIGHT: normal; color:#7e7e7e;	text-decoration: none;
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	font-size:0.6em;width:98%; }
+.loginUsuarioIzquierda_campos label {	display:block;	color: #7192C5;	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	text-decoration: none; 	height:100%; font-weight:bold; font-size:0.6em;	margin:0em 0em 0.2em 0em; padding: 0; }
+.loginUsuarioIzquierda_botonera { text-align:center; margin-bottom:0.6em; }
+.loginUsuarioIzquierda_botonera input {	overflow:visible !important;                
+    margin: 0 !important;
+    padding:0em 0.1em 0em 0.1em !important;
+	/*margin: 0;
+	padding: 0;*/
+	border:solid 1px #6E8BB6;	
+	background-color:#ffffff;
+	FONT-WEIGHT: normal; 		
+	color:#7e7e7e;
+	text-decoration: none;
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	
+	font-size:0.6em;	
+}
+.loginUsuarioIzquierda_enlaces {	text-align:center;}
+.loginUsuarioIzquierda_enlaces a {	color:#868686;	font-size:0.6em;	text-decoration:none;	font-weight:bold; }
+/*estilos para la identificacion de usuario en el menu de la izquierda*/
+.identificacionUsuario { display:block;	margin:0.5em 0em 0em 0em;	padding:0.15em 0em 0em 0em; }
+.identificacionUsuarioContenido { height:100%;	background-color:#f4f4f4;	margin:0.1em 0em 0em 0em;	padding:0em 0em 0.5em 0em;	border:solid thin #dfdfdf; }
+.identificacionUsuario dl {	display:block;	margin:0em 0.3em 1em 0.5em;	padding:0.9em 0em 0em 0em; font-size:0.6em; color:#868686;	overflow:visible; height:100%;	}
+.identificacionUsuario dt {	display:block;	padding: 0 !important;	margin: 0 !important; list-style-type: none; color:#7192c5;	text-decoration: none; height:100%;	
+	font-weight:bold; }
+.identificacionUsuario dd {	display:block;	margin: 0.1em 0em 0.5em 0em !important;	padding: 0 !important;	color: #868686;	text-decoration: none; height:100%;}
+.identificacionUsuarioContenido div { clear:both; text-align:center; margin-bottom:0.5em;	 }
+.identificacionUsuario a { font-size:0.6em;	color:#868686; font-weight:bold; text-decoration:none; }
+.identificacionUsuario input { margin: 0; padding: 0; border:solid 1px #6E8BB6;	background-color:#ffffff; FONT-WEIGHT: normal; color:#7e7e7e; text-decoration: none;
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	font-size:0.6em;}
+/*Estilos para cuando la identificacion de usuario va a la derecha*/
+.identificacionUsuarioDerecha {	display:block; margin:0.5em 0em 0em 0em; padding:0.15em 0em 0.3em 0em; background-color:#e6e6e7; }
+.identificacionUsuarioDerecha h1 { 
+	background-color:#9CB2D3; 
+	background-image:url(../gif/flesubentradilla.gif);	
+	background-position:0.3em 0.5em; 
+	background-repeat:no-repeat; 
+	color:#ffffff; 
+	font-size:0.7em;	
+	font-weight:normal;	
+	margin:0.5em 0.3em 0em 0.3em;	
+	padding:0.2em 0em 0.2em 1em; 
+	text-align:left;	}
+.identificacionUsuarioDerecha dl { 
+	display:block; 
+	margin:1em 0.3em 1em 0.5em; 
+	padding: 0; 
+	font-size:0.6em; 
+	color:#868686; 
+	overflow:visible; 
+	height:100%;}
+.identificacionUsuarioDerecha dt { 
+	display:block; 
+	padding: 0 !important; 
+	margin: 0 !important; 
+	list-style-type: none; 
+	color:#7192c5; 
+	text-decoration: none; 
+	height:100%; 
+	font-weight:bold; }
+.identificacionUsuarioDerecha dd { 
+	display:block; 
+	margin: 0.1em 0em 0.5em 0em !important; 
+	padding: 0 !important; color: #868686; 
+	text-decoration: none; height:100%; }
+.identificacionUsuarioDerecha div {	clear:both;	text-align:center; margin-bottom:0.5em; }
+.identificacionUsuarioDerecha a { font-size:0.6em; color:#868686; font-weight:bold;	text-decoration:none; }
+.identificacionUsuarioDerecha input { 
+	margin:0;	padding: 0;	
+	border:solid 1px #6E8BB6; 
+	background-color:#ffffff; 
+	FONT-WEIGHT: normal; 
+	color:#7e7e7e; 
+	text-decoration: none;
+	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif; font-size:0.6em;	}
+.camposParaIdentificarDerecha {	margin:0.6em 0.3em 1em 0.2em; padding: 0; text-align:left !important; }
+.camposParaIdentificarDerecha label { display:block; color:#7192c5;	font-family: Verdana, "Microsoft sans serif", Arial, Tahoma, Helvetica, sans-serif;	height:1.36em !important;	font-weight:bold; font-size:0.6em; margin:0; padding: 0;}
+.camposParaIdentificarDerecha input { display:block; margin:0;	padding: 0;	width:98% !important; }
+
+/*-------------------------------------Listas de definicion 19-11-08-----------------------------------------------------------*/
+dl.lista_definicion1 { color:#7e7e7e; margin:0.5em 0.5em 0.5em 1.1em; padding: 0; font-size:0.7em; }
+dl.lista_definicion1  dt{ font-weight:bold; display:block; float:left; clear:left; margin-bottom:.8em;}
+dl.lista_definicion1  dd{margin-left:1em; float:left; margin-bottom:.8em;}
+dl.lista_definicion1  dd.definicionAbajo{ clear:left; margin-left:1em; float:left; margin-bottom:.8em;}
